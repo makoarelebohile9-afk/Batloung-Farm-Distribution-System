@@ -93,15 +93,6 @@ export default function DashboardPage() {
             <Link className="summary-chip" to="/reports">Open performance reports <strong>→</strong></Link>
           </div>
 
-          <SectionCard title="Maseru delivery map" subtitle="Vendor coverage around Maseru, Lesotho">
-            <iframe
-              title="Maseru city map"
-              src="https://maps.google.com/maps?q=Shoprite%20Maseru&t=&z=15&ie=UTF8&iwloc=&output=embed"
-              style={{ width: "100%", height: "420px", border: 0, borderRadius: "14px" }}
-              loading="lazy"
-            />
-          </SectionCard>
-
           <div className="dashboard-grid">
             <SectionCard title="Recent sales" subtitle="Latest vendor orders recorded in the system" action={<Link className="button button-outline button-small" to="/sales">View sales</Link>}>
               {loading ? <LoadingState /> : (
