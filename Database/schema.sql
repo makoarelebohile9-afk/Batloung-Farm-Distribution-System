@@ -2,7 +2,6 @@ CREATE DATABASE IF NOT EXISTS batloung_farm_distribution
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_0900_ai_ci;
 
-USE batloung_farm_distribution;
 
 CREATE TABLE IF NOT EXISTS suppliers (
   supplier_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,

@@ -1,4 +1,3 @@
-USE batloung_farm_distribution;
 
 INSERT INTO suppliers
   (supplier_id, business_name, contact_person, phone, province, address)
